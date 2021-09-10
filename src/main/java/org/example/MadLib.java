@@ -9,15 +9,22 @@ public class MadLib
 {
     public static void main( String[] args )
     {
+        // Prompt users to enter a noun, verb, adverb, and adjective and
+        // create a madlib containing such words
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter a noun: ");
         String noun = input.nextLine();
+
         System.out.print("Enter a verb: ");
         String verb = input.nextLine();
+
         System.out.print("Enter a adverb: ");
         String adverb = input.nextLine();
+
         System.out.print("Enter a adjective: ");
         String adjective = input.nextLine();
+
         System.out.println("\"Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "?\" Isn't that hilarious?");
     }
 }
